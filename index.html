@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uvi</title>
+    <script src="https://kit.fontawesome.com/623d2400f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrollreveal.js"></script>
+</head>
+<body>
+    <header>
+        <section class="container">
+            <div class="textos">
+                <h1>Mejora tu Entorno</h1>
+                <a class=" menu_link btn-abrir-popup" id="btn-abrir-popup">Contacto</a>
+                        <div class="overlay" id="overlay">
+                            <div class="popup" id="popup">
+                                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </a>
+                                    <h3><strong>Estamos listos para ayudarte</strong></h3>
+                                    <h4>Contactanos, te brindaremos asistencia personalizada</h4>
+                                    <form id="form" action="contacto.php" method="post">
+                                        <div class="container-inputs">
+                                            <input type="text" name="nombre" placeholder="Nombre:">
+                                            <input type="text" name="email" placeholder="Email:">
+                                            <textarea name="consulta" placeholder="Consulta:"></textarea>
+                                        </div>
+                                        <button>Enviar</button>
+                                        <div id="mensajes">
+                                            <span id="errNombre"></span>
+                                            <span id="errEmail"></span>
+                                            <span id="errConsulta"></span>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+            </div>
+            <img src="img/Team work_Isometric.svg" alt="">
+        </section>
+    </header>
+    <div class="waves">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f1cafa;"></path></svg></div>
+    </div>
+    <main>
+        <section class="abaut">
+            <article>
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    Somos un equipo multidisciplinario, enfocados en brindarte la mejor solución para tus necesidades. Nos adaptamos a lo que necesites, no importa el tamaño de tu problema, estamos capacitados para asesorarte en todo el camino, nuestro equipo de profesionales esta siempre disponible para responder tus consultas. 
+                </p>
+            </article>
+            <img src="img/Team building _Isometric.svg" style="float: right; width: 300px; height: 300px;">
+        </section>
+        <section id="container-servs">
+            <article class="servs">
+                <div class="img">
+                    <img src="img/LinkedIn_Isometric.svg">
+                </div>
+                <div>
+                    <h2>Perfil de LinkedIn</h2>
+                <p>
+                    Sabemos lo importante que es para ti conectar con las mejores ofertas. Es por eso que te guiaremos en la creación de tu perfil profesional en LinkedIn, para que puedas presentarte y otras empresas puedan conocer un poco de ti.
+                </p>
+                <a href="#">
+                    Consultas</a>
+                </div>
+            </article>
+            <article class="servs">
+                <div>
+                    <h2>Confección y Corrección de CV</h2>
+                <p>
+                    Desde la primera oración hasta tener la hoja de vida completa. Estamos capacitados para aconsejarte en lo que necesites para crear la mejor versión de tu hoja de vida. Desde la mejor forma de distribuir tu información personal y profesional, hasta como comunicar correctamente esta información. 
+                </p>
+                <a href="#">Consultas</a>
+                </div>
+                <div class="img2">
+                    <img src="img/Profiling_Isometric.svg" style="float: right;">
+                </div>
+            </article>
+            <article class="servs">
+                <div class="img">
+                    <img src="img/Coach_Isometric.svg">
+                </div>
+                <div>
+                    <h2>Consejos y Simulacros de Entrevistas</h2>
+                <p>
+                    Nuestro equipo estará siempre atento para ayudarte, nos enfocamos no solo en brindarte lo que necesitas, sino también capacitarte para que puedas tener independencia en tus presentaciones. A través de nuestros simulacros recibirás consejos y puntos claves para destacar en tus entrevistas.
+                </p>
+                <a href="#">Consultas</a>
+                </div>
+            </article>
+            <article class="servs">
+                <div>
+                    <h2>Búsqueda de Empleo</h2>
+                <p>
+                    Sabemos que buscar trabajo es un trabajo, y muchas veces no sabemos por donde o como empezar a buscar. No te preocupes, seremos tus guias en este camino, desde enfocarnos en palabras claves para las búsquedas, hasta revisión de perfiles y requisitos, te ayudaremos no solo a encontrar tu trabajo deseado, sino también a conseguirlo. 
+                </p>
+                <a href="#">Consultas</a>
+                </div>
+                <div class="img2">
+                    <img src="img/SEO_Isometric.svg" style="float: right;">
+                </div>
+            </article>
+            <div class="info">
+                <p>
+                    Nuestros servicios se adaptan a tu necesidad, tenemos mucho mas para ofrecerte. Si te interesa saber mas sobre los servicios de asesoramiento profecional que tenemos para ofrecerte contactanos.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="waves2">
+            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(55, 5, 79);"></path></svg></div>
+        </div>
+            <section id="footer-content">
+                <div id="logo">
+                    <img src="img/undraw_new_year_2023_pfnc.svg">
+                    <p id="contact">&copy;2023</p>
+                </div>
+                <div id="redes-sociales">
+                    <a href="#">
+                        <i class="fa-solid fa-at"></i>info@example.com.ar 
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/company/example-i/
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="#">
+                        <h3>Designed by <strong>Gabriela Rodriguez</strong> | <i class="fa-brands fa-linkedin"></i></h3>
+                    </a>
+                </div>
+            </section>
+    </footer>
+
+    <script src="js/popup.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
